@@ -76,7 +76,9 @@
 
 **Hint**：请思考一下在不同步骤发生中断时，应该如何选取合适的原子操作，并通过原子操作来恢复文件。 [reference link](https://en.wikipedia.org/wiki/Journaling_file_system)
 
-## GUI 前端 *(1%)*
+## 管理系统
+
+### GUI 前端 *(1%)*
 
 提供一个用户友好的图形化前端（Qt、Gtk、Web、Tcl/Tk 等均可）。基本要求为：
 
