@@ -5,6 +5,7 @@ SJTU CS1951 课程大作业
 ## 概况
 
 ### 作业安排
+
 本作业分为两个部分。
 
 在第一部分中，需要实现一个基于文件的 B+ 树。
@@ -38,7 +39,13 @@ bonus 另外计算，计入平时分总分，且不超过总分的 1%。
 
 ### 作业要求
 
-作业要求实现基于 BPT 的外存管理系统。在本作业中，只允许调用 `iostream`, `cstring`, `cstdio`, `cmath`, `string`, `fstream` 六个库，如需使用其他功能请自行实现。你需要在最后通过 [OJ 测试](https://acm.sjtu.edu.cn/OnlineJudge/problem/1837)。
+作业要求实现基于 BPT 的外存管理系统。在本作业中，只允许调用以下头文件中的函数和类：
+
+iostream, string, cstdio, cmath, string, fstream, filesystem
+
+不允许使用这些头文件包含的 STL 容器 (如 `std::vector`) 或算法 (如 `std::sort`)。唯一的例外是，你可以使用 `std::string`。如果需要用到其他与算法、数据结构无关的标准库，请向助教提出请求。
+
+你需要在最后通过 [OJ 测试](https://acm.sjtu.edu.cn/OnlineJudge/problem/1837)。
 
 注意：建议使用类模板以方便后续完成管理系统。
 
